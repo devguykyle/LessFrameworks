@@ -1,0 +1,24 @@
+{
+  "name": "honeydew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "A",
+    "list",
+    "app",
+    "for",
+    "Christian",
+    "couples"
+  ],
+  "author": "Kyle Rhodes",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "client-sessions": "^0.8.0",
+    "mongodb": "^3.1.3"
+  }
+}

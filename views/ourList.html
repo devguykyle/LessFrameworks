@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <title>HoneyDew</title>
+    <script src="/publicAssets/js/addDeleteTask.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <form action="/logout" method="GET">
+        <input type="submit" value="logout" />
+      </form>
+    </header>
+
+    <div class="addNewTask">
+      <form id="Theform">
+        <input type="text" placeholder="New Task" name="task" />
+        <input type="text" placeholder="Assign" name="assignee" />
+        <input type="submit" value="Add Task" />
+      </form>
+    </div>
+
+    <div class="listWindow">
+      <ul id="listArea">
+
+      </ul>
+    </div>
+
+  </body>
+
+</html>
