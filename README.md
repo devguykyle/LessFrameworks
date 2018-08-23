@@ -5,4 +5,9 @@ This project is not denouncing the usefulness of using well built technologies a
 
 As such, this project uses Node modules that come packaged with the Node language to build the server and monogdb without mongoose to connect and run database operations. THs project does use the package "client-session" to manage cookies and client sessions. For the front end, standard xmlhttprequest objects and event listeners were used without frameworks such as jquery or even templating frameworks such as vue.js.
 
+
 For questions and concerns regarding this project, please email ologydigital@gmail.com.
+
+# Acknowledgements
+David Wickes - Acticle that inspired thsi project.
+https://dev.to/gypsydave5/why-you-shouldnt-use-a-web-framework-3g24
