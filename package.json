@@ -1,7 +1,7 @@
 {
   "name": "honeydew",
   "version": "1.0.0",
-  "description": "",
+  "description": "The purpose of the Less Frameworks project is to show and example of developing Node.js applications without such tools as express.js and react.js in an effort to promote deeper knowledge among developers of the interworkings of building server-side technologies in Node as well as front-end technologies in their language of choice.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,22 @@
   "dependencies": {
     "bcrypt": "^3.0.0",
     "client-sessions": "^0.8.0",
+    "eslint-plugin-react": "^7.15.1",
     "mongodb": "^3.1.3"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devguykyle/LessFrameworks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devguykyle/LessFrameworks/issues"
+  },
+  "homepage": "https://github.com/devguykyle/LessFrameworks#readme"
 }
